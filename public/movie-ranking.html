@@ -1,21 +1,108 @@
-<h1>The Best Movies Accoring to Me</h1>
- <h2>My too 3 movies of all-time</h2>
- <hr>
- <h3>Inception</h3>
- <p>One of the best movie that I have ever seen<br>
-    Time Travel, Sci-fic, drama <br>
-    Rating: 4.7 / 5
- </p>
- <h3>Shoshunk Redemption</h3>
- <p>Best movie ever.<br>
-    drama <br>
-    Rating: 4.7 / 5
- </p>
- <h3>Dark Knight</h3>
- <p>Best movie ever watched and enjoyed<br>
-    Drama, Politics <br>
-    Rating: 4.7 / 5
- </p>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Top 3 Movies</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+    <style>
+        body {
+            background: linear-gradient(to right, #000000, #434343);
+            color: white;
+            font-family: 'Poppins', sans-serif;
+            text-align: center;
+            padding: 50px;
+        }
 
- <hr>
-<a href = "../index.html">Home</a>
+        h1, h2 {
+            font-weight: bold;
+            text-shadow: 2px 2px 5px rgba(255, 255, 255, 0.2);
+        }
+
+        .movie-container {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 20px;
+            margin-top: 30px;
+        }
+
+        .movie-card {
+            background: rgba(255, 255, 255, 0.1);
+            padding: 20px;
+            border-radius: 12px;
+            width: 300px;
+            box-shadow: 3px 3px 10px rgba(255, 255, 255, 0.2);
+            transition: 0.3s ease-in-out;
+        }
+
+        .movie-card:hover {
+            background: rgba(255, 255, 255, 0.2);
+            transform: scale(1.05);
+        }
+
+        .movie-title {
+            font-size: 1.8rem;
+            font-weight: bold;
+        }
+
+        .rating {
+            color: gold;
+            font-size: 1.5rem;
+        }
+
+        .btn-custom {
+            display: inline-block;
+            font-size: 1.3rem;
+            padding: 12px 25px;
+            background-color: #ffcc00;
+            color: black;
+            font-weight: bold;
+            border-radius: 8px;
+            text-decoration: none;
+            transition: 0.3s ease;
+            margin-top: 30px;
+            box-shadow: 3px 3px 10px rgba(255, 204, 0, 0.5);
+        }
+
+        .btn-custom:hover {
+            background-color: #ff9900;
+            color: white;
+            transform: scale(1.05);
+            box-shadow: 3px 3px 15px rgba(255, 153, 0, 0.7);
+        }
+
+    </style>
+</head>
+<body>
+
+    <h1>🎬 The Best Movies According to Me 🎥</h1>
+    <h2>✨ My Top 3 Movies of All-Time ✨</h2>
+    <hr>
+
+    <div class="movie-container">
+        <div class="movie-card">
+            <h3 class="movie-title">Inception</h3>
+            <p>🕰️ Time Travel, Sci-Fi, Drama</p>
+            <p class="rating">⭐⭐⭐⭐⭐ 4.7/5</p>
+        </div>
+
+        <div class="movie-card">
+            <h3 class="movie-title">Shawshank Redemption</h3>
+            <p>🎭 Drama</p>
+            <p class="rating">⭐⭐⭐⭐⭐ 4.7/5</p>
+        </div>
+
+        <div class="movie-card">
+            <h3 class="movie-title">The Dark Knight</h3>
+            <p>🎭 Drama, Politics</p>
+            <p class="rating">⭐⭐⭐⭐⭐ 4.7/5</p>
+        </div>
+    </div>
+
+    <hr>
+
+    <a class="btn-custom" href="../index.html">🏠 Home</a>
+
+</body>
+</html>

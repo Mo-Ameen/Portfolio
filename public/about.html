@@ -1,30 +1,118 @@
-<h1>About Me</h1>
-<p>
-  My self Ameen and I'm a Software Engineer in an MNC. I have 4 years of experience in IT field. Sterted as a System Admin and currently
-   working as a Software Engineer.
-  This is my first web page which am deploying to internet as part of my recently enrolled cource - "Become a Full-Stack Web Developer with just ONE course. HTML, CSS, Javascript, Node, React, PostgreSQL, Web3 and DApps" - from Udemy.
-  Im very intrested in developing web pages hence I thought to enroll this coure and here I'm, deploying my first website to public.
-</p>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Me - Ameen</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+    <style>
+        body {
+            background: linear-gradient(to right, #1e3c72, #2a5298);
+            color: white;
+            font-family: 'Poppins', sans-serif;
+            text-align: center;
+            padding: 40px;
+        }
 
-<p>Coming to my details, Im BSc. graduate from Calicut University specialized in Computer Science. Me and my friends developed a website related to NEWS where people can upload
-  any NEWS from their local to this site. This project was dropped due to some reasons.
-</p>
+        h1 {
+            font-size: 3rem;
+            font-weight: bold;
+            margin-bottom: 20px;
+        }
 
-<p>Im a Keralite living in Edappatta, Malappuram district. I'm unmarried living with my parents and two siblings. Since I'm having this WFH, Im very happy that I can stay with my
-  family. Father is a Gulf employer and Mother, she is a housewife. Sister is graduate in Bachelor of Business Administration (BBA) and brother is planning for his B.Tech. <br>
-  <Br>
-  This is all about me. If you want to know more about me, dont hesitate to made a call or write a mail. Contact details are added in the Contact section or <a href="./contactfromabount.html">click here.</a><br>
-  <br>
+        p {
+            font-size: 1.2rem;
+            max-width: 800px;
+            margin: auto;
+            line-height: 1.6;
+        }
 
-  Thanks for visiting my website.<br>
-  <br>
-  <br>
+        .contact-link {
+            font-weight: bold;
+            color: #ffcc00;
+            text-decoration: none;
+            transition: 0.3s ease;
+        }
 
-  (This website is under development, especially the styles and the graphics. Working on this expecting to complete ASAP).<br>
-  <img src = "../assets/images/giphy.webp" height = "100">
-  <br>
-  <br>
-</p>
+        .contact-link:hover {
+            color: #ff9900;
+            text-decoration: underline;
+        }
 
-<hr>
-<a href = "../index.html">Home</a>
+        .home-link {
+            display: inline-block;
+            margin-top: 20px;
+            font-size: 1.3rem;
+            padding: 10px 20px;
+            background-color: #ffcc00;
+            color: black;
+            font-weight: bold;
+            border-radius: 5px;
+            text-decoration: none;
+            transition: 0.3s ease;
+        }
+
+        .home-link:hover {
+            background-color: #ff9900;
+            color: white;
+        }
+
+        img {
+            margin-top: 20px;
+            width: 100px;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>About Me</h1>
+
+    <p>
+        Hi, I'm <b>Ameen</b>, a passionate Software Engineer working at an MNC with 4 years of experience in IT.  
+        I started my journey as a System Administrator, and currently, I am excelling in software development.
+    </p>
+
+    <p>
+        This is my first web page, deployed as part of my Udemy course "Become a Full-Stack Web Developer", covering  
+        <b>HTML, CSS, JavaScript, Node, React, PostgreSQL, Web3, and DApps</b>.  
+        My keen interest in web development led me to enroll in this course, and now, here I am, deploying my first website!
+    </p>
+
+    <p>
+        Education:  
+        I'm a BSc. Computer Science graduate from Calicut University.  
+        Previously, I worked on a NEWS website project where people could upload local news, but due to unforeseen reasons,  
+        the project was discontinued.
+    </p>
+
+    <p>
+        Personal Life:  
+        I am from Edappatta, Malappuram, Kerala, currently working remotely (WFH), which allows me to spend quality  
+        time with my parents and siblings.  
+        - Father: Works in the Gulf  
+        - Mother: Homemaker  
+        - Sister: Business Administration graduate (BBA)  
+        - Brother: Planning to pursue B.Tech  
+    </p>
+
+    <p>
+        Want to connect? Feel free to call or email me anytime!  
+        Contact details are available in the Contact Section, or  
+        <a class="contact-link" href="./contactfromabount.html">click here</a>.
+    </p>
+
+    <p>
+      <br>
+      <br><br>
+        🚧 This website is under development, especially design & graphics.  
+        Stay tuned for upcoming improvements! 🚀
+    </p>
+
+    <img src="../assets/images/giphy.webp" alt="Loading Animation">
+    
+    <hr>
+
+    <a class="home-link" href="../index.html">⬅ Back to Home</a>
+
+</body>
+</html>
